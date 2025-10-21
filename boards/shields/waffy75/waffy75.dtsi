@@ -1,4 +1,4 @@
-#include "my_keyboard-layouts.dtsi"
+#include "waffy75-layouts.dtsi"
 #include <dt-bindings/zmk/matrix-transform.h>
 
 / {
