@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define CONF 1
 
@@ -35,7 +36,7 @@
             display-name = "Config Layer";
             bindings = <
                        &trans     &trans       &ktrans      &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans  
+                &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans  
                 &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
                 &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans 
                 &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
