@@ -23,6 +23,10 @@ include:
   - board: nrfmicro_13
     shield: waffy75_left
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: >
+      -DCONFIG_ZMK_STUDIO=y
+      -DCONFIG_ZMK_SPLIT=y
+      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+      -DCONFIG_ZMK_USB=y
   - board: nrfmicro_13
     shield: waffy75_right
