@@ -35,12 +35,12 @@
         config_layer { // Layer 1
             display-name = "Config Layer";
             bindings = <
-                       &trans     &trans       &trans       &trans        &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans  
-                &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans 
-                &trans &trans                  &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
-                       &trans     &trans       &trans                           &trans                       &trans        &trans &trans &trans &trans &trans
+                       &studio_unlock &trans       &trans       &trans        &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans  
+                &trans &trans                      &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans                      &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans 
+                &trans &trans                      &trans       &trans       &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans
+                       &trans         &trans       &trans                           &trans                       &trans        &trans &trans &trans &trans &trans
             >;
         };
     };
