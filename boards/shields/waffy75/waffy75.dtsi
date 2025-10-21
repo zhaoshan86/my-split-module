@@ -7,6 +7,8 @@
         // zmk,kscan = &kscan0;   // already defined in &physical_layout0
 
         // Other chosen items
+        zmk,battery = &vbatt;  // battery level Sensing
+
     };
 
     default_transform: keymap_transform0 {
@@ -43,5 +45,9 @@
             , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
     };
 };
