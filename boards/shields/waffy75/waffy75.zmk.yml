@@ -1,0 +1,15 @@
+file_format: "1"
+id: waffy75
+name: Waffy75
+type: shield
+url: ""
+requires: [pro_micro]
+# exposes: [i2c_oled]
+features:
+  - keys
+  - encoder
+  - studio
+  # - pointer
+siblings:
+  - waffy75_left
+  - waffy75_right
